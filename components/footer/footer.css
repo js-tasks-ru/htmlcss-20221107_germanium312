@@ -1,5 +1,5 @@
 .footer {
-	height: 200px;
+	padding: 71px 0 136px 0;
 	background: #fff;
 }
 .footer__title {
@@ -20,6 +20,6 @@
 	line-height: 24px;
 	text-align: center;
 	color: #212429;
-	width: 640px;
+	max-width: 640px;
 	margin: 0 auto;
 }
