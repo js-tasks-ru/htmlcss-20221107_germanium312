@@ -20,51 +20,6 @@
     --secondary: var(--purple);
 }
 
-/* * {
+ * {
     font-family: 'Roboto', sans-serif;
-} */
-
-html {
-    color: #fff;
-    font-size: 17px;
-}
-
-header {
-    background: #FF0000;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.7rem;
-}
-
-nav {
-    background: #FF9A00;
-    text-align: center;
-    padding: 10px;
-}
-
-nav a {
-    color: #fff;
-    padding: 5px;
-    font-size: 1.5rem;
-}
-
-main {
-    background: #04A242;
-    padding: 10px;
-}
-
-article {
-    background: #1319FF;
-    padding: 10px;
-    margin-bottom: 5px;
-}
-
-footer {
-    background: #BD00FF;
-    text-align: center;
-    font-size: 2.7rem;
-    font-weight: bold;
-}
+} 
