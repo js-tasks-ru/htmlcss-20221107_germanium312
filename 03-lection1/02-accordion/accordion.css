@@ -1,9 +1,8 @@
 /* Стилизация аккордеона */
 
 .accordion__item {
-	padding: 32px;
+	padding: 24px 49px 9px 32px;
 	box-sizing: border-box;
-	max-width: 730px;
 	min-height: 72px;
 	background: var(--white);
 	border: 1px solid var(--grey-3);
@@ -25,9 +24,9 @@
 	cursor: pointer;
 	position: relative;
 }
-.accordion__summary .accordion__marker {
+.accordion__marker {
 	display: inline-block;
-	right: 0;
+	right: -16px;
 	position: absolute;
 	transform: rotate(180deg);
 	transition-duration: .5s;
@@ -39,10 +38,6 @@
 .accordion__description {
 	color: var(--grey-4);
 }
-.accordion__description:last-child {
-	margin-bottom: 0;
-	padding-bottom: 0;
-} /* не работает */
 
 
 
