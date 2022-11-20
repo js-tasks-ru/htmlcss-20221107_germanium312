@@ -30,10 +30,11 @@
 	right: 0;
 	position: absolute;
 	transform: rotate(180deg);
-	
+	transition-duration: .5s;
 }
 .accordion__item[open] .accordion__marker {
 	transform: rotate(0deg);
+	transition-duration: .5s;
 }
 .accordion__description {
 	color: var(--grey-4);
