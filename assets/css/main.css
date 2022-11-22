@@ -1,25 +1,50 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
 
+@import url(../../03-lection1/01-button/button.css);
+
 :root {
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
-    --blue: #374FC7;
+    --blue: #4263EB;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --button-color-primary-hover: #2342C0;
+    --button-color-secondary-hover: #5028C6;
+    --button-color-alternative-hover: #212429;
 
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: #4263EB;
+    --primary-hover: var(--button-color-primary-hover);
+
     --secondary: var(--purple);
+    --secondary-hover: var(--button-color-secondary-hover);
+
+    --alternative: var(--);
+    --alternative-hover: var(--button-color-alternative-hover);
 }
 
  * {
     font-family: 'Roboto', sans-serif;
-} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
