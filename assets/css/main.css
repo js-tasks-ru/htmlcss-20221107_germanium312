@@ -1,6 +1,14 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
 
+<<<<<<< HEAD
+=======
+@import url(../../components/page/page.css);
+@import url(../../components/header/header.css);
+@import url(../../components/preview/preview.css);
+@import url(../../components/footer/footer.css);
+@import url(../../components/container/container.css);
+>>>>>>> 01-index-page-2
 @import url(../../03-lection1/01-button/button.css);
 
 :root {
@@ -21,7 +29,11 @@
     --error: var(--red);
     --success: var(--blue);
 
+<<<<<<< HEAD
     --primary: #4263EB;
+=======
+    --primary: var(--blue);
+>>>>>>> 01-index-page-2
     --primary-hover: var(--button-color-primary-hover);
 
     --secondary: var(--purple);
@@ -33,46 +45,23 @@
 
  * {
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
 }
 
 html {
     color: #fff;
     font-size: 17px;
+=======
+>>>>>>> 01-index-page-2
 }
 
-header {
-    background: #FF0000;
-    text-align: center;
-}
 
-header h1 {
-    margin: 0;
-    font-size: 2.7rem;
-}
 
-nav {
-    background: #FF9A00;
-    text-align: center;
-    padding: 10px;
-}
 
-nav a {
-    color: #fff;
-    padding: 5px;
-    font-size: 1.5rem;
-}
 
-main {
-    background: #04A242;
-    padding: 10px;
-}
 
-article {
-    background: #1319FF;
-    padding: 10px;
-    margin-bottom: 5px;
-}
 
+<<<<<<< HEAD
 footer {
     background: #BD00FF;
     text-align: center;
@@ -85,6 +74,8 @@ footer {
 
 
 
+=======
+>>>>>>> 01-index-page-2
 
 
 
