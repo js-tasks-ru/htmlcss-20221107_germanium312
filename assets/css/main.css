@@ -7,6 +7,9 @@
 @import url(../../components/footer/footer.css);
 @import url(../../components/container/container.css);
 @import url(../../03-lection1/01-button/button.css);
+@import '../fonts/fonts.css';
+
+@import url(../../03-lection1/01-button/button.css);
 
 :root {
     --white: #ffffff;
@@ -26,7 +29,7 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: #4263EB;
     --primary-hover: var(--button-color-primary-hover);
 
     --secondary: var(--purple);
