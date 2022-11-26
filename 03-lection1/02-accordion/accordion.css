@@ -1,8 +1,5 @@
 /* Стилизация аккордеона */
 .accordion {
-	max-width: 1000px;
-	margin: 0px auto;
-	margin-bottom: 8px;
 	word-spacing: 0.14em;
 }
 .accordion__item {
@@ -12,7 +9,7 @@
 	background: var(--white);
 	border: 1px solid var(--grey-3);
 	border-radius: 8px;
-	margin-bottom: 6px;
+	margin-bottom: 6px; /*не работает*/
 	font-size: 16px;
 	font-family: 'Inter';
 	font-style: normal;
@@ -31,6 +28,7 @@
 	user-select: none;
 	cursor: pointer;
 	position: relative;
+	
 }
 .accordion__marker {
 	display: inline-block;
@@ -45,6 +43,7 @@
 }
 .accordion__description {
 	color: var(--grey-4);
+	margin-bottom: 8px; /* не работает */
 }
 
 
