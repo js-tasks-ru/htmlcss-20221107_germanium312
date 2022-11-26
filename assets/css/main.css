@@ -1,14 +1,11 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
 
-<<<<<<< HEAD
-=======
 @import url(../../components/page/page.css);
 @import url(../../components/header/header.css);
 @import url(../../components/preview/preview.css);
 @import url(../../components/footer/footer.css);
 @import url(../../components/container/container.css);
->>>>>>> 01-index-page-2
 @import url(../../03-lection1/01-button/button.css);
 
 :root {
@@ -29,11 +26,7 @@
     --error: var(--red);
     --success: var(--blue);
 
-<<<<<<< HEAD
-    --primary: #4263EB;
-=======
     --primary: var(--blue);
->>>>>>> 01-index-page-2
     --primary-hover: var(--button-color-primary-hover);
 
     --secondary: var(--purple);
@@ -45,14 +38,6 @@
 
  * {
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-}
-
-html {
-    color: #fff;
-    font-size: 17px;
-=======
->>>>>>> 01-index-page-2
 }
 
 
@@ -61,21 +46,6 @@ html {
 
 
 
-<<<<<<< HEAD
-footer {
-    background: #BD00FF;
-    text-align: center;
-    font-size: 2.7rem;
-    font-weight: bold;
-}
-
-
-
-
-
-
-=======
->>>>>>> 01-index-page-2
 
 
 
