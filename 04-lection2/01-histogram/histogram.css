@@ -1,35 +1,57 @@
 .histogram {
 	background: var(--white);
-	width: 354px; /*del*/
-	height: 185px; /*del.*/
+	width: 306px; /*del*/
+	min-height: 106px; /*del.*/
 	background: #FFFFFF;
 	border: 1px solid var(--grey-3);
 	border-radius: 8px;
+	padding: 16px 24px 24px 24px;
 }
-.histogram__name {
+.histogram__info {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 39px;
+}
+.histogram__info-name {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	border: 1px solid red;
 	display: flex;
+	flex-direction: column;
 }
-.histogram__name-title {
+.histogram__info-name-title {
 	color: var(--black);
 	font-size: 16px;
 	line-height: 24px;
 	opacity: 0.8;
-	flex-grow: 100;
+	padding-bottom: 6px;
 }
-.histogram__name-subtitle {
+.histogram__info-name-counter {
 	color: var(--black);
 	font-size: 20px;
 	line-height: 26px;
 }
-.histogram__name-link {
+.histogram__info-link {
 	color: var(--blue);
 	font-size: 16px;
 	line-height: 24px;
+	padding-top: 3px; /* 16px + 3 = 19*/
 }
-.histogram__name-link a {
+.histogram__info-link a {
 	text-decoration: none;
+}
+
+/* chart */
+.histogram__chart {
+	display: flex;
+	height: 50px;
+	padding-left: 1px; /* 24 + 2 + gap*/
+	padding-right: 4hpx; /* 24 + 5 + gap*/
+	gap: 1px;
+	align-items: flex-end;
+}
+.histogram__chart-bar {
+	max-height: 50px;
+	width: 9px;
+	background-color: var(--blue);
 }
