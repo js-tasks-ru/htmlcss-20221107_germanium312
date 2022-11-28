@@ -1,10 +1,15 @@
 .card {
 	width: 350px;
-	height: 367px; /*del*/
+	height: 367px; /* del */
 	background: #fff;
 	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 	border-radius: 12px;
 	display: flex;
+	padding-bottom: 32px;
+}
+.card__custom {
+	 padding-bottom: 38px;
+	 height: 361px; /* del */
 }
 /* .card__body {
 	font-size: 16px;
@@ -26,11 +31,9 @@
 	justify-content: flex-end;
 	flex-grow: 100;
 	align-items: center;
-	padding-bottom: 32px;
+	/* padding-bottom: 32px; */
 }
-.card__name-custom {
-	padding-bottom: 38px;
-}
+
 .card__name-title {
 	font-weight: 500;
 	font-size: 21px;

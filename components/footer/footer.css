@@ -1,6 +1,6 @@
 .footer {
-	height: 200px;
-	background: #fff;
+	min-height: 200px;
+	background: var(--white);
 }
 .footer__title {
 	font-family: 'Inter';
@@ -8,7 +8,7 @@
 	font-weight: 500;
 	font-size: 38px;
 	line-height: 48px;
-	color: #212429;
+	color: var(--black);
 	text-align: center;
 }
 
@@ -19,7 +19,7 @@
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	color: #212429;
+	color: var(--black);
 	width: 640px;
 	margin: 0 auto;
 }
