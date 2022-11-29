@@ -1,0 +1,50 @@
+.skeleton {
+	box-sizing: border-box;
+	background: var(--white);
+	border: 1px solid var(--grey-3);
+	border-radius: 8px;
+	padding: 24px 40px 32px 24px;
+}
+.skeleton__top {
+	display: flex;
+	margin-bottom: 24px;
+}
+.skeleton__top-circle {
+	width: 64px;
+	height: 64px;
+	background: var(--grey-2);
+	border-radius: 100%;
+	display: flex;
+	margin-right: 16px;
+}
+.skeleton__top-lines_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.skeleton__top-lines_wrapper_1 {
+	display: flex;
+	width: 172px; /* width: 172px - flex-basis растягивает по вертикали( а нужно по горизонтали*/
+	height: 20px;
+	background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
+}
+.skeleton__top-lines_wrapper_2 {
+	display: flex;
+	width: 257px; /* width: 257px; - flex-basis растягивает по вертикали( а нужно по горизонтали*/
+	height: 20px;
+	background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
+}
+
+.skeleton__bottom {
+	display: flex;
+	flex-direction: column;
+}
+.skeleton__bottom_lines_wrapper_1 {
+	margin-bottom: 8px;
+}
+.skeleton__bottom_lines_wrapper_1, 
+.skeleton__bottom_lines_wrapper_2 {
+	flex-grow: 100;
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
