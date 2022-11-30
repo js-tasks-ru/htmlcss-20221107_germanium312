@@ -39,10 +39,9 @@
     --alternative-hover: var(--button-color-alternative-hover);
 }
 
- * {
+ body {
     font-family: 'Roboto', sans-serif;
 }
-
 
 
 
