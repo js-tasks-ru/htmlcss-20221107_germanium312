@@ -9,7 +9,7 @@
 	display: flex;
 	margin-bottom: 24px;
 }
-.skeleton__top-circle {
+.skeleton__circle {
 	width: 64px;
 	height: 64px;
 	background: var(--grey-2);
@@ -17,34 +17,35 @@
 	display: flex;
 	margin-right: 16px;
 }
-.skeleton__top-lines_wrapper {
+.skeleton__top-lines-wrapper {
 	display: flex;
+	
 	flex-direction: column;
 	justify-content: space-around;
+	flex-grow: 100;
 }
-.skeleton__top-lines_wrapper_1 {
+.skeleton__line_small {
 	display: flex;
-	width: 172px; /* width: 172px - flex-basis растягивает по вертикали( а нужно по горизонтали*/
+	width: 39.5%;
 	height: 20px;
 	background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
 }
-.skeleton__top-lines_wrapper_2 {
+.skeleton__line_middle {
 	display: flex;
-	width: 257px; /* width: 257px; - flex-basis растягивает по вертикали( а нужно по горизонтали*/
+	width: 59%;
 	height: 20px;
 	background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
 }
-
 .skeleton__bottom {
 	display: flex;
 	flex-direction: column;
 }
-.skeleton__bottom_lines_wrapper_1 {
-	margin-bottom: 8px;
-}
-.skeleton__bottom_lines_wrapper_1, 
-.skeleton__bottom_lines_wrapper_2 {
+.skeleton__line_big {
 	flex-grow: 100;
 	height: 20px;
 	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+	margin-top: 8px;
+}
+.skeleton__bottom :first-child {
+	margin-top: 0;
 }
