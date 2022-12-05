@@ -1,1 +1,19 @@
 /* Стилизация аккордеона */
+<<<<<<< HEAD
+=======
+/*
+summary {
+	display: block;
+}
+summary::-webkit-details-maker {
+	display: none; /* Для Webkit и Safari. Но этого недостаточно. нужно гуглить
+}
+summary .maker { 
+	display: inline-block;
+	padding-right: 0.5em;
+}
+details[open] .maker {
+	transform: rotate(90deg);
+}
+*/
+>>>>>>> master

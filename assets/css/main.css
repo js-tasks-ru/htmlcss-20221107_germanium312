@@ -30,6 +30,7 @@
     --success: var(--blue);
 
     --primary: #4263EB;
+    --primary: var(--blue);
     --primary-hover: var(--button-color-primary-hover);
 
     --secondary: var(--purple);
@@ -55,3 +56,8 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
