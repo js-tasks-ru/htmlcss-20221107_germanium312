@@ -1,0 +1,47 @@
+.card {
+	width: 350px;
+	min-height: 367px; /* del */
+	background: #fff;
+	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+	border-radius: 12px;
+	display: flex;
+	padding-bottom: 32px;
+}
+.card__custom {
+	 padding-bottom: 38px;
+	 min-height: 361px; /* del */
+}
+/* .card__body {
+	font-size: 16px;
+}
+.card__placeholder {
+	height: 150px;
+	background: aqua;
+	border-radius: 12px 12px 0 0;
+}
+.card__button {
+	margin-top: 25px;
+} */
+.card__name {
+	font-family: 'Roboto';
+	font-style: normal;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex-grow: 100;
+	align-items: center;
+}
+
+.card__name-title {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--black);
+	padding-bottom: 6px;
+}
+.card__name-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--grey-4);
+}

@@ -1,6 +1,14 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
 
+@import url(../../components/page/page.css);
+@import url(../../components/header/header.css);
+@import url(../../components/preview/preview.css);
+@import url(../../components/footer/footer.css);
+@import url(../../components/container/container.css);
+@import url(../../components/card/card.css);
+@import url(../../03-lection1/01-button/button.css);
+@import '../fonts/fonts.css';
 @import url(../../03-lection1/01-button/button.css);
 
 :root {
@@ -22,6 +30,7 @@
     --success: var(--blue);
 
     --primary: #4263EB;
+    --primary: var(--blue);
     --primary-hover: var(--button-color-primary-hover);
 
     --secondary: var(--purple);
@@ -31,7 +40,7 @@
     --alternative-hover: var(--button-color-alternative-hover);
 }
 
- * {
+ body {
     font-family: 'Roboto', sans-serif;
 }
 
